@@ -154,9 +154,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4399087882640034717, guid: 283e6530a665e4513959d1cd4883682f, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399395844358877001, guid: 283e6530a665e4513959d1cd4883682f, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399411428940362497, guid: 283e6530a665e4513959d1cd4883682f, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399650245129997165, guid: 283e6530a665e4513959d1cd4883682f, type: 3}
+      propertyPath: m_Layer
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4399714922860730671, guid: 283e6530a665e4513959d1cd4883682f, type: 3}
       propertyPath: m_Name
       value: Paint Supplies
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399714922860730671, guid: 283e6530a665e4513959d1cd4883682f, type: 3}
+      propertyPath: m_Layer
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 283e6530a665e4513959d1cd4883682f, type: 3}

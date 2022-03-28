@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
-  m_Name: Outline
+  m_Name: OutlineOrange
   m_EditorClassIdentifier: 
   m_Active: 1
   resources: {fileID: 11400000, guid: d28e70f030b1a634db9a6a6d5478ef19, type: 2}
@@ -37,7 +37,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RendererFeatures:
   - {fileID: -2306631743189971359}
-  m_RendererFeatureMap: 618e858fa632fddf
+  - {fileID: 3361012551846487629}
+  m_RendererFeatureMap: 618e858fa632fddf4d6670c61bb7a42e
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -66,3 +67,26 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
+--- !u!114 &3361012551846487629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
+  m_Name: OutlineBlue
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  resources: {fileID: 11400000, guid: d28e70f030b1a634db9a6a6d5478ef19, type: 2}
+  settings:
+    color: {r: 0.02352937, g: 1.0387026, b: 1.4980392, a: 2}
+    width: 10
+    intensity: 1
+    depthTesting: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 16
+  renderPassEvent: 400

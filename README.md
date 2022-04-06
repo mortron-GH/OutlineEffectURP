@@ -1,4 +1,4 @@
-# JoyWayTest-OutlineEffectURP
+# OutlineEffectURP
 Outline effect implementation for URP
 
 В качестве unity-проекта для теста используется шаблон 3D Sample Scene (URP).
